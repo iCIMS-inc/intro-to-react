@@ -1,5 +1,5 @@
 # intro-to-react
-Intro to react examples originally created for Winter 2018 HackHERS event.
+Intro to react to-do application originally created for Winter 2018 HackHERS event.
 
 # Installation
 First, install git and yarn. Then:
@@ -10,3 +10,20 @@ $ yarn install
 $ yarn start
 ```
 Then open your browser to http://localhost:8080.
+
+# Links & Resources
+
+## React
+
+[React Documentation](https://reactjs.org/)
+[Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+
+## React Environment Setup
+
+[Create React App](https://github.com/facebook/create-react-app)
+
+## Javascript
+
+[Javascript Tutorial](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+[Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
