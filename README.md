@@ -16,15 +16,18 @@ Then open your browser to http://localhost:8080.
 ## React
 
 [React Documentation](https://reactjs.org/)
+
 [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
 ## React Environment Setup
 
 [Create React App](https://github.com/facebook/create-react-app)
+
 [Setup a React Environment Using Webpack and Babel](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
 
 ## Javascript
 
 [Javascript Tutorial](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+
 [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
