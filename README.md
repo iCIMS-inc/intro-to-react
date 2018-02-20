@@ -21,6 +21,7 @@ Then open your browser to http://localhost:8080.
 ## React Environment Setup
 
 [Create React App](https://github.com/facebook/create-react-app)
+[Setup a React Environment Using Webpack and Babel](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
 
 ## Javascript
 
