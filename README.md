@@ -4,7 +4,7 @@ Intro to react to-do application originally created for Winter 2018 HackHERS eve
 # Installation
 First, install git and yarn. Then:
 ```
-$ git clone https://github.com/amanda-ludwinski/intro-to-react.git
+$ git clone https://github.com/iCIMS-inc/intro-to-react.git
 $ cd intro-to-react
 $ yarn install
 $ yarn start
