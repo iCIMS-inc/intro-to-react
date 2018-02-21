@@ -1,10 +1,10 @@
 import React from 'react';
 
-const AddTodoForm = () => {
+const AddTodoForm = ({value, handleOnChange, handleOnSubmit}) => {
   return (
-    <form>
-      <input type="text" />
-      <button type="button">Add</button>
+    <form onSubmit={handleOnSubmit}>
+      <input type="text" value={value} onChange={handleOnChange} />
+      <button type="submit">Add</button>
     </form>
   )
 }
