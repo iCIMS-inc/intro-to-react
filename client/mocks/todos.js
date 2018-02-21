@@ -1,19 +1,19 @@
 export default [
 	{
 		"text": "go grocery shopping",
-		"id": "1"
+		"key": "1519242727"
 	},
 	{
 		"text": "buy movie tix",
-		"id": "2"
+		"key": "1519242736"
 	},
 	{
 		"text": "walk the dog",
-		"id": "3"
+		"key": "1519242744"
 	},
 	{
 		"text": "schedule dentist appt",
-		"id": "4"
+		"key": "1519242752"
 	}
 ]
 
