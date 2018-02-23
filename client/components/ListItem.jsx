@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TodoListItem = ({todo}) => {
+const ListItem = ({todo}) => {
   return (
     <div>
       <input type="checkbox" />
@@ -9,5 +9,5 @@ const TodoListItem = ({todo}) => {
   )
 }
 
-export default TodoListItem;
+export default ListItem;
 

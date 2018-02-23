@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import AddTodoForm from './AddTodoForm.jsx';
-import TodoList from './TodoList.jsx';
+import Form from './Form.jsx';
+import List from './List.jsx';
 import initialTodos from '../mocks/todos.js';
 
-class TodoApp extends Component {
+class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -24,7 +24,7 @@ class TodoApp extends Component {
 
     const newTodo = {
       text: this.state.inputValue,
-      key: (new Date()).getTime()
+      key: new Date().getTime()
     }
 
     this.setState({
@@ -37,15 +37,15 @@ class TodoApp extends Component {
     return (
       <div>
         <h1>To-Do App</h1>
-        <AddTodoForm 
+        <Form 
           value={this.state.inputValue}
           handleOnChange={this.handleOnChange}
           handleOnSubmit={this.handleOnSubmit}  />
-        <TodoList todos={this.state.todos} />
+        <List todos={this.state.todos} />
       </div>
     )
   }
 }
 
-export default TodoApp;
+export default App;
 

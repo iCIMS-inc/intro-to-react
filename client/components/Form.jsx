@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AddTodoForm = ({value, handleOnChange, handleOnSubmit}) => {
+const Form = ({value, handleOnChange, handleOnSubmit}) => {
   return (
     <form onSubmit={handleOnSubmit}>
       <input type="text" value={value} onChange={handleOnChange} />
@@ -9,5 +9,5 @@ const AddTodoForm = ({value, handleOnChange, handleOnSubmit}) => {
   )
 }
 
-export default AddTodoForm;
+export default Form;
 
